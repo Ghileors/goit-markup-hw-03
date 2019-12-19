@@ -1,0 +1,52 @@
+:root {
+  --white-color: #ffffff;
+  --blue-color: #03a9f4;
+  --maim-color: #777777;
+  --darkgrey-color: #626262;
+  --lightgrey-color: #dbd8d2;
+  --primary-font-stack: "Playfair Display", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+button {
+  font-family: inherit;
+}
+
+body {
+  background-color: var(--white-color);
+  font-size: 14px;
+  font-family: var(--primary-font-stack);
+  line-height: 1.2;
+  color: var(--maim-color);
+}
+
+/* SITE NAV */
+.site-nav .nav-list .link:hover,
+.site-nav .nav-list .link:focus {
+  color: var(--blue-color);
+}
+
+/* LINKS */
+.link {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* SIGNATURE TO PHOTO */
+.signature {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+  color: var(--lightgrey-color);
+}
+
+/* HEADER */
+.title {
+  font-size: 30px;
+  font-weight: 420;
+  color: var(--darkgrey-color);
+}
+
+.button {
+  font-size: 20px;
+  cursor: pointer;
+}
