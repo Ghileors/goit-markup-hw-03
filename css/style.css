@@ -30,6 +30,7 @@ body {
 .link {
   text-decoration: none;
   text-transform: uppercase;
+  color: var(--maim-color)
 }
 
 /* SIGNATURE TO PHOTO */
